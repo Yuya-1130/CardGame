@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class HandSort : MonoBehaviour
+public class HandSort : MonoBehaviour, IDropHandler
 {
     [Header("配置の設定")]
   [SerializeField]  public float angleDifference = 8f;
@@ -49,7 +49,7 @@ public class HandSort : MonoBehaviour
         {
             // カードの親を自分の下（HandSort）にする
             draggedCard.transform.SetParent(transform);
-            draggedCard.transform.localScale = Vector3.one; // スケールリセット
+           
 
             // 綺麗に扇形に並べ直す
             ArrangeCards();
