@@ -61,7 +61,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 32.99
+  m_Spacing: 32.53
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 2900532135207194602}
   - component: {fileID: 5098271084513052216}
   - component: {fileID: 1148853966564449427}
+  - component: {fileID: 8852873516206903328}
   m_Layer: 5
   m_Name: Brack
   m_TagString: Untagged
@@ -110,8 +111,8 @@ RectTransform:
   m_GameObject: {fileID: 1721895730280988858}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.76, y: 2.6666667, z: 1.3333334}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1566526229232647880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -148,7 +149,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1908437483772129563, guid: 6f33fd2172e83b247a6bcbe1e2165455, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -158,6 +159,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8852873516206903328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721895730280988858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad25a1da3d6577459e8348f248c7a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardMove
 --- !u!1 &3090863406772421811
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +182,7 @@ GameObject:
   - component: {fileID: 6285287411460595105}
   - component: {fileID: 153514348596011415}
   - component: {fileID: 1027117491908408150}
+  - component: {fileID: 1544613003317685653}
   m_Layer: 5
   m_Name: Window
   m_TagString: Untagged
@@ -185,8 +199,8 @@ RectTransform:
   m_GameObject: {fileID: 3090863406772421811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.76, y: 2.6666667, z: 1.3333334}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1566526229232647880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -223,7 +237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -2331603175938586343, guid: 231bef84e2acd314f8d9f52a00db4d47, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -233,6 +247,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1544613003317685653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090863406772421811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad25a1da3d6577459e8348f248c7a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardMove
 --- !u!1 &3703404565305004207
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,6 +270,7 @@ GameObject:
   - component: {fileID: 4038059180850785953}
   - component: {fileID: 3059168884964962797}
   - component: {fileID: 6965451148482253560}
+  - component: {fileID: 4370732885219687394}
   m_Layer: 5
   m_Name: Right
   m_TagString: Untagged
@@ -260,8 +287,8 @@ RectTransform:
   m_GameObject: {fileID: 3703404565305004207}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.76, y: 2.6666667, z: 1.3333334}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1566526229232647880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -298,7 +325,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 4259751504587372115, guid: ba28a48b67640dc409cc25e06afb882e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -308,6 +335,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4370732885219687394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703404565305004207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad25a1da3d6577459e8348f248c7a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardMove
 --- !u!1 &3909654816112643089
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,6 +358,7 @@ GameObject:
   - component: {fileID: 5359976520131476710}
   - component: {fileID: 2284716099494927443}
   - component: {fileID: 6487577658772189161}
+  - component: {fileID: 7673820830864453805}
   m_Layer: 5
   m_Name: Rock
   m_TagString: Untagged
@@ -335,8 +375,8 @@ RectTransform:
   m_GameObject: {fileID: 3909654816112643089}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.76, y: 2.6666667, z: 1.3333334}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1566526229232647880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -373,7 +413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -7981606591202889811, guid: 1c93186c5c5c24843aa72cabc4d49a6b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -383,6 +423,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7673820830864453805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3909654816112643089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad25a1da3d6577459e8348f248c7a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardMove
 --- !u!1 &5733017876362744787
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,6 +446,7 @@ GameObject:
   - component: {fileID: 3607755134106092343}
   - component: {fileID: 3848662467586191658}
   - component: {fileID: 3486562630236228349}
+  - component: {fileID: 4989331995378813989}
   m_Layer: 5
   m_Name: Woter
   m_TagString: Untagged
@@ -410,8 +463,8 @@ RectTransform:
   m_GameObject: {fileID: 5733017876362744787}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.76, y: 2.6666667, z: 1.3333334}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1566526229232647880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -448,7 +501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 2409634424307612231, guid: 53fded1ae565ed24d971ef886686a785, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -458,6 +511,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4989331995378813989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5733017876362744787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad25a1da3d6577459e8348f248c7a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardMove
 --- !u!1 &6420529995154204635
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +534,7 @@ GameObject:
   - component: {fileID: 7494257679442034729}
   - component: {fileID: 4396633295648642100}
   - component: {fileID: 5564344680306140167}
+  - component: {fileID: 2777053012972402122}
   m_Layer: 5
   m_Name: fire
   m_TagString: Untagged
@@ -485,8 +551,8 @@ RectTransform:
   m_GameObject: {fileID: 6420529995154204635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.76, y: 2.6666667, z: 1.3333334}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1566526229232647880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -523,7 +589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -143826433237754061, guid: 33a950af6b95d56499cba795d199b16b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -533,3 +599,15 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2777053012972402122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6420529995154204635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad25a1da3d6577459e8348f248c7a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardMove

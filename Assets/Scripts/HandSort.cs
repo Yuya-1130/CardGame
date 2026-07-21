@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class HandSort : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class HandSort : MonoBehaviour
     [Tooltip("扇の基準点")]
     public float radius = 250f;
 
-     void Update()
+     public void Update()
     {
         // いつでもInspectorで値をいじれるように(のちに削除)
         ArrangeCards();    
@@ -38,6 +39,20 @@ public class HandSort : MonoBehaviour
 
             // 基準点（HandManagerの位置）から少し下に下げた位置をベースにする
             card.localPosition = new Vector3(x, y - radius, 0);
+        }
+    }
+    public void OnDrop(PointerEventData eventData)
+    {
+        GameObject draggedCard = eventData.pointerDrag;
+
+        if (draggedCard != null)
+        {
+            // カードの親を自分の下（HandSort）にする
+            draggedCard.transform.SetParent(transform);
+            draggedCard.transform.localScale = Vector3.one; // スケールリセット
+
+            // 綺麗に扇形に並べ直す
+            ArrangeCards();
         }
     }
 }
